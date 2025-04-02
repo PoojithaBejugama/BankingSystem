@@ -3,7 +3,7 @@
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/projectfile
+    git clone https://github.com/yourusername/BankingSystem
     cd BankingSystem
     ```
 
@@ -41,25 +41,6 @@
     ```bash
     pytest
     ```
-
-## Running the React Frontend
-
-1. Navigate to the frontend directory:
-    ```bash
-    cd frontend
-    ```
-
-2. Install the dependencies:
-    ```bash
-    npm install
-    ```
-
-3. Start the development server:
-    ```bash
-    npm run dev
-    ```
-
-4. Your React application will be available at: [http://localhost:3000](http://localhost:3000)
 
 
 ## Contributing
