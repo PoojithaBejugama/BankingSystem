@@ -1,0 +1,24 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Secure ATM Client</title>
+  <script defer src="/static/app.js"></script>
+</head>
+<body>
+  <h2>ATM Login</h2>
+  <input id="username" placeholder="Username" />
+  <input id="password" placeholder="Password" type="password" />
+  <button onclick="register()">Register</button>
+  <button onclick="login()">Login</button>
+
+  <div id="actions" style="display:none">
+    <h3>Actions</h3>
+    <input id="amount" placeholder="Amount" type="number" />
+    <button onclick="deposit()">Deposit</button>
+    <button onclick="withdraw()">Withdraw</button>
+    <button onclick="balance()">Balance Inquiry</button>
+    <p id="result"></p>
+  </div>
+</body>
+</html>
